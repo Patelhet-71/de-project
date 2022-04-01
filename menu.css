@@ -43,10 +43,6 @@ body{
 	border-radius: 12px;
 	cursor: pointer;
 }
-.ourSpecials__item__img,
-.ourSpecials__item__info {
-	flex: 1;
-}
 .ourSpecials__item__img {
 	border-radius: 12px;
 	overflow: hidden;
@@ -57,9 +53,9 @@ body{
 .ourSpecials__item__title {
 	font-size: 2.4rem;
 	font-weight: 500;
-	margin-bottom: 1rem;
+	/* margin-bottom: 1rem; */
 	color: var(--black-1);
-	line-height: 1.2em;
+	/* line-height: 1.2em; */
 }
 .ourSpecials__item__price {
 	font-size: 1.8rem;
@@ -80,25 +76,19 @@ body{
 		max-width: none;
 	}
 	.ourSpecials__item {
+		display: flex;
+		flex-direction: column;
 		padding: 3rem;
 		gap: 2rem;
 		cursor: pointer;
 	}
 	.ourSpecials__item__title {
 		font-size: 3rem;
-		margin-bottom: 1.5rem;
+		/* margin-bottom: 1.5rem; */
 	}
 	.ourSpecials__item__price {
 		font-size: 2.4rem;
 		margin-bottom: 1.5rem;
-	}
-}
-@media only screen and (min-width: 1100px) {
-	.ourSpecials__item__img {
-		flex: 4;
-	}
-	.ourSpecials__item__info {
-		flex: 3;
 	}
 }
 
