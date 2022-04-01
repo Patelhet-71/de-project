@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- Add your custom css -->
   <link rel="stylesheet" href="./home.css">
+  <script src="https://kit.fontawesome.com/db9f66546a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -52,7 +53,7 @@
               <li><a class="nav__link" href="./other.html">Other</a></li>
               <li><a class="nav__link" href="./about.html">About</a></li>
               <li><a class="nav__link" href="./contact.html">Contact</a></li>
-              <li><a href="./booking.html" class="btn primary-btn">Order</a></li>
+              <li><a href="./signup.html" class="btn primary-btn">Sign Up</a></li>
             </div>
           </ul>
         </nav>
@@ -192,48 +193,68 @@
     <div class="container">
       <h2 class="dishGrid__title">
         Top Dishes
+        <a href="/other.html"> See More <img src="/img/right-arrow.svg" alt="see more"></a>
       </h2>
       <div class="dishGrid__wrapper">
+
         <div class="dishGrid__item">
           <div class="dishGrid__item__img">
             <img src="/img/sev-tameta-roti.jpg" alt="food img">
           </div>
           <div class="dishGrid__item__info">
             <h3 class="dishGrid__item__title">
-              Sev Tameta 
+              Fix Dish
             </h3>
             <h3 class="dishGrid__item__price">₹90</h3>
             <div class="dishGrid__item__stars">
-              <img src="./images/3star.png" alt="3 star">
+              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
+            </div>
+            <div  class="dishGrid_menu">
+              <p class="dishGrid_menu_list">
+                1 Gravy Veg, 1 Dry Veg, 3 Chapati, 1 Rice, 1 Salad/Soup
+              </p>
             </div>
           </div>
+          
         </div>
+
         <div class="dishGrid__item">
           <div class="dishGrid__item__img">
             <img src="/img/undhiyu-puri.jpg" alt="food img">
           </div>
           <div class="dishGrid__item__info">
             <h3 class="dishGrid__item__title">
-              Undhiyu-Puri
+              Primium Dish
             </h3>
             <h3 class="dishGrid__item__price">₹100</h3>
             <div class="dishGrid__item__stars">
-              <img src="./images/3star.png" alt="3 star">
+              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
             </div>
           </div>
+          <div  class="dishGrid_menu">
+            <p class="dishGrid_menu_list">
+              1 Vegetable, 1 Punjabi, 1 Dal, 5 Chapati, 1 Rice, 1 Salad/Soup,Chips
+            </p>
+          </div>
         </div>
+
         <div class="dishGrid__item">
           <div class="dishGrid__item__img">
             <img src="/img/panir-tikka-masala.png" alt="food img">
           </div>
           <div class="dishGrid__item__info">
             <h3 class="dishGrid__item__title">
-              Panir Tikka Masala
+              Delux Dish
             </h3>
             <h3 class="dishGrid__item__price">₹110</h3>
             <div class="dishGrid__item__stars">
-              <img src="./images/3star.png" alt="3 star">
+              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
             </div>
+          </div>
+          <div  class="dishGrid_menu">
+            <p class="dishGrid_menu_list">
+              1 Vegetable, 1 Punjabi, 1 Dal fry, 5 Chapati, 1 Rice, 1 Salad/Soup,Chips, 1 Sweats,1 Papad
+            </p>
           </div>
         </div>
       </div>
@@ -263,7 +284,6 @@
             <span class="discount__newPrice">₹90</span>
           </h3>
           <div class="discount__stars">
-            <img src="./images/3star.png" alt="3 stars">
           </div>
           <a class="btn primary-btn" href="./booking.html">Book Table</a>
         </div>
@@ -533,7 +553,7 @@
   <div id="copyright">
     <div class="container">
       <p class="copyright__text">
-        © copyright 2021 Shaif’s Cuisine | All rights reserved
+        © copyright 2021 | All rights reserved
       </p>
     </div>
   </div>
