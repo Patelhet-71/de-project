@@ -59,7 +59,9 @@ section {
 	--black-2: #3f3c3c;
 	--black-3: #5b6359;
 	--white-1: #e8e8e8;
+	--white: #ffffff;
 }
+
 img {
 	width: 100%;
 	height: 100%;
