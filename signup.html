@@ -91,23 +91,19 @@
             <label for="confirm_password">Confirm Password</label>
             <input type="password" id="confirm_password" name="Confirm Password" required minlength="8">
           </div>
-          <div class="form__group sign_up_radio" >
-              <label for="gender">Male</label>
-              <input type="radio" id="gender_male" name="Gender" value="male" required >
-              <label for="gender">Female</label>
-              <input type="radio" id="gender_female" name="Gender" value="female" required >
-              <label for="gender">Other</label>
-              <input type="radio" id="gender_other" name="Gender" value="other" required >
-          </div>
-          
-          
           <div class="form__group">
             <label for="date">Birth Date</label>
             <input type="date" id="date" name="Date" required>
           </div>
-          
-          
-          <button type="submit" class="btn primary-btn signup login">Register</button>
+          <div class="form__group sign_up_radio" >
+            <label for="gender">Male</label>
+            <input type="radio" id="gender_male" name="Gender" value="male" required >
+            <label for="gender">Female</label>
+            <input type="radio" id="gender_female" name="Gender" value="female" required >
+            <label for="gender">Other</label>
+            <input type="radio" id="gender_other" name="Gender" value="other" required >
+        </div>
+        <button type="submit" class="btn primary-btn signup login">Register</button>
         </form>
         <p class="existing_user_login new_user_signup">Already Have a Account? &nbsp; <a href="/login.html">Log In</a> </p>
       </div>
