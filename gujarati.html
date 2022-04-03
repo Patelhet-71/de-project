@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- Add your custom css -->
   <link rel="stylesheet" href="./menu.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 
 <body>
@@ -49,10 +51,34 @@
                 <li><a class="nav__link" href="./index.html">Home</a></li>
                 <li><a class="nav__link" href="./kathiyawadi.html">Kathiyawadi</a></li>
                 <li><a class="nav__link" href="./punjabi.html">Punjabi</a></li>
-                <li><a class="nav__link" href="./other.html">Other</a></li>
+                <li><a class="nav__link" href="/other.html">Other</a></li>
                 <li><a class="nav__link" href="./about.html">About</a></li>
                 <li><a class="nav__link" href="./contact.html">Contact</a></li>
+              <li><i class='bx bx-shopping-bag ' id="cart-icon" ></i></li>
               <li><a href="./signup.html" class="btn primary-btn">Sign Up</a></li>
+
+              <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <div class="cart-content">
+                    <!-- <div class="cart-box">
+                      <img  src="/images/food-1.png" class="cart-img" alt="" >
+                                <div class="detail-box">
+                                  <div class="cart-food-title">paneer</div>
+                                  <div class="cart-fprice">₹250</div>
+                                  <input type="number" class="cart-quantity" value="1" >
+                                </div>           
+                                <i class='bx bxs-trash cart-remove' ></i>
+                    </div> -->
+                </div>
+                <div class="total">
+                  <div class="total-title">Total</div>
+                  <div class="total-price">₹0</div>
+                </div>
+        
+                  <button type="button" class="btn-buy add-to-btn">Buy Now</button>
+                  <i class='bx bx-x' id="close-cart" ></i>
+              </div>
+
               </div>
             </ul>
           </nav>
@@ -116,514 +142,203 @@
   <section id="dishGrid" data-aos="fade-up">
     <div class="container">
       <h2 class="dishGrid__title">
-        Roti/Puri
+        Top Dishes
       </h2>
-      <div class="dishGrid__wrapper">
+      <div class="food_content">
 
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              Roti
-            </h3>
-            <h3 class="dishGrid__item__price">₹5</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
+        <div class="food-box">
+          <img src="/img/undhiyu-puri.jpg" class="food-img" alt="">
+          <h2 class="food-title">undhiyu puri </h2>
+          <span class="price">₹50</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
         </div>
 
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              Tikhi Roti
-            </h3>
-            <h3 class="dishGrid__item__price">₹5</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
+        <div class="food-box">
+          <img src="/img/undhiyu-puri.jpg" class="food-img" alt="">
+          <h2 class="food-title">undhiyu puri </h2>
+          <span class="price">₹50</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+        
+        <div class="food-box">
+          <img src="/img/handavo.JPG" class="food-img" alt="">
+          <h2 class="food-title">Handavo </h2>
+          <span class="price">₹50</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
         </div>
 
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              Puri
-            </h3>
-            <h3 class="dishGrid__item__price">₹5</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
+        <div class="food-box">
+          <img src="/img/sev-tameta-roti.jpg" class="food-img" alt="">
+          <h2 class="food-title">paneer tikka double triple masala </h2>
+          <span class="price">₹50</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
         </div>
-
+        
       </div>
     </div>
   </section>
+  <!-- End Top Dishes -->
+
   <!-- Starter -->
   <!-- Top Dishes -->
   <section id="dishGrid" data-aos="fade-down">
     <div class="container">
       <h2 class="dishGrid__title">
-        Shak
+        Top Dishes
       </h2>
-      
-      <div class="dishGrid__wrapper">
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              Suki Bhaji
-            </h3>
-            <h3 class="dishGrid__item__price">₹15</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
+      <div class="food_content">
+
+        <div class="food-box">
+          <img src="/img/undhiyu-puri.jpg" class="food-img" alt="">
+          <h2 class="food-title">undhiyu puri </h2>
+          <span class="price">₹50</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
         </div>
 
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              Ghiloda Bataka
-            </h3>
-            <h3 class="dishGrid__item__price">₹15</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
+        <div class="food-box">
+          <img src="/img/undhiyu-puri.jpg" class="food-img" alt="">
+          <h2 class="food-title">undhiyu puri </h2>
+          <span class="price">₹50</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+        
+        <div class="food-box">
+          <img src="/img/handavo.JPG" class="food-img" alt="">
+          <h2 class="food-title">Handavo </h2>
+          <span class="price">₹50</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
         </div>
 
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              Fulevar Bataka
-            </h3>
-            <h3 class="dishGrid__item__price">₹15</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
+        <div class="food-box">
+          <img src="/img/sev-tameta-roti.jpg" class="food-img" alt="">
+          <h2 class="food-title">paneer tikka double triple masala </h2>
+          <span class="price">₹50</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
         </div>
-
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              Bhinda
-            </h3>
-            <h3 class="dishGrid__item__price">₹15</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              Chori
-            </h3>
-            <h3 class="dishGrid__item__price">₹15</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              Ringan Bateka
-            </h3>
-            <h3 class="dishGrid__item__price">₹15</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              Methi ni  Bhaji
-            </h3>
-            <h3 class="dishGrid__item__price">₹15</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              Palak ni  Bhaji
-            </h3>
-            <h3 class="dishGrid__item__price">₹15</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              Karela
-            </h3>
-            <h3 class="dishGrid__item__price">₹15</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
-        </div>
-
-       
+        
       </div>
     </div>
   </section>
-  <!-- End Top Dishes -->
+  <!-- End starter -->
+
   <!-- Breakfast Dishes -->
   <section id="dishGrid" data-aos="fade-up">
     <div class="container">
       <h2 class="dishGrid__title">
-        starter
+        Top Dishes
       </h2>
-      <div class="dishGrid__wrapper">
+      <div class="food_content">
 
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              Papad
-            </h3>
-            <h3 class="dishGrid__item__price">₹5</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
+        <div class="food-box">
+          <img src="/img/undhiyu-puri.jpg" class="food-img" alt="">
+          <h2 class="food-title">undhiyu puri </h2>
+          <span class="price">₹50</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
         </div>
 
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              Chhas
-            </h3>
-            <h3 class="dishGrid__item__price">₹5</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
+        <div class="food-box">
+          <img src="/img/undhiyu-puri.jpg" class="food-img" alt="">
+          <h2 class="food-title">undhiyu puri </h2>
+          <span class="price">₹50</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+        
+        <div class="food-box">
+          <img src="/img/handavo.JPG" class="food-img" alt="">
+          <h2 class="food-title">Handavo </h2>
+          <span class="price">₹50</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
         </div>
 
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              Dudh
-            </h3>
-            <h3 class="dishGrid__item__price">₹5</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
+        <div class="food-box">
+          <img src="/img/sev-tameta-roti.jpg" class="food-img" alt="">
+          <h2 class="food-title">paneer tikka double triple masala </h2>
+          <span class="price">₹50</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
         </div>
-
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              keri Athanu
-            </h3>
-            <h3 class="dishGrid__item__price">₹5</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              Limbu Athanu
-            </h3>
-            <h3 class="dishGrid__item__price">₹5</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              Chhundo
-            </h3>
-            <h3 class="dishGrid__item__price">₹5</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              Lasan Chatni
-            </h3>
-            <h3 class="dishGrid__item__price">₹5</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
-        </div>
-
-
+        
       </div>
     </div>
   </section>
   <!-- End Breakfast Dishes -->
+
   <!-- Lunch Dishes -->
-  <section id="dishGrid" data-aos="fade-up">
+  <section id="dishGrid" data-aos="fade-down">
     <div class="container">
       <h2 class="dishGrid__title">
-        Rise
+        Top Dishes
       </h2>
-      <div class="dishGrid__wrapper">
+      <div class="food_content">
 
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              Bhat
-            </h3>
-            <h3 class="dishGrid__item__price">₹5</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
+        <div class="food-box">
+          <img src="/img/undhiyu-puri.jpg" class="food-img" alt="">
+          <h2 class="food-title">undhiyu puri </h2>
+          <span class="price">₹50</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
         </div>
 
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              Khichadi
-            </h3>
-            <h3 class="dishGrid__item__price">₹5</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              vaghareli Khichadi
-            </h3>
-            <h3 class="dishGrid__item__price">₹5</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              vagharelo Bhat
-            </h3>
-            <h3 class="dishGrid__item__price">₹5</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
+        <div class="food-box">
+          <img src="/img/undhiyu-puri.jpg" class="food-img" alt="">
+          <h2 class="food-title">undhiyu puri </h2>
+          <span class="price">₹50</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
         </div>
         
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              Dal
-            </h3>
-            <h3 class="dishGrid__item__price">₹5</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
+        <div class="food-box">
+          <img src="/img/handavo.JPG" class="food-img" alt="">
+          <h2 class="food-title">Handavo </h2>
+          <span class="price">₹50</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
         </div>
 
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              Kadthi
-            </h3>
-            <h3 class="dishGrid__item__price">₹5</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
+        <div class="food-box">
+          <img src="/img/sev-tameta-roti.jpg" class="food-img" alt="">
+          <h2 class="food-title">paneer tikka double triple masala </h2>
+          <span class="price">₹50</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
         </div>
-
-
-
+        
       </div>
     </div>
   </section>
   <!-- End Lunch Dishes -->
+
   <!-- Dinner Dishes -->
   <section id="dishGrid" data-aos="fade-up">
     <div class="container">
       <h2 class="dishGrid__title">
-        Extra
+        Top Dishes
       </h2>
-      <div class="dishGrid__wrapper">
+      <div class="food_content">
 
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              Dhokli
-            </h3>
-            <h3 class="dishGrid__item__price">$12</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
+        <div class="food-box">
+          <img src="/img/undhiyu-puri.jpg" class="food-img" alt="">
+          <h2 class="food-title">undhiyu puri </h2>
+          <span class="price">₹50</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+
+        <div class="food-box">
+          <img src="/img/undhiyu-puri.jpg" class="food-img" alt="">
+          <h2 class="food-title">undhiyu puri </h2>
+          <span class="price">₹50</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
         </div>
         
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              Muthiya
-            </h3>
-            <h3 class="dishGrid__item__price">$12</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
+        <div class="food-box">
+          <img src="/img/handavo.JPG" class="food-img" alt="">
+          <h2 class="food-title">Handavo </h2>
+          <span class="price">₹50</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
         </div>
 
-        
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              Methina thepla
-            </h3>
-            <h3 class="dishGrid__item__price">$12</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              Shiro
-            </h3>
-            <h3 class="dishGrid__item__price">$12</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn ">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
+        <div class="food-box">
+          <img src="/img/sev-tameta-roti.jpg" class="food-img" alt="">
+          <h2 class="food-title">paneer tikka double triple masala </h2>
+          <span class="price">₹50</span>
+          <i class='bx bx-shopping-bag add-cart' ></i>
         </div>
         
-        <div class="dishGrid__item">
-          <div class="dishGrid__item__img">
-            <img src="./images/food-1.png" alt="food img">
-          </div>
-          <div class="dishGrid__item__info">
-            <h3 class="dishGrid__item__title">
-              Rab
-            </h3>
-            <h3 class="dishGrid__item__price">$12</h3>
-            <div class="dishGrid__item__stars">
-              <a href="./other.html" class="add-to-btn">Add To <img src="/img/cart.svg" alt=""></a>
-            </div>
-          </div>
-        </div>
-
-
       </div>
     </div>
   </section>
@@ -749,7 +464,9 @@
   <!-- End Footer -->
   <!-- aos script -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  
   <!-- custom script -->
+  <script src="/cart.js"></script>
   <script src="./main.js"></script>
 </body>
 
