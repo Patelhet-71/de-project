@@ -4,9 +4,6 @@ const navIconEl = document.querySelector('.nav__icon');
 const navBgOverlayEl = document.querySelector('.nav__bgOverlay');
 
 
-window.addEventListener('DOMContentLoaded', () =>{
-  document.body.style.visibility = 'visible';
-});
 
 const navOpen = () => {
    navList.classList.add('show');
