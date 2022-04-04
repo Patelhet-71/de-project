@@ -46,8 +46,8 @@ i{
 .cart{
 	position: fixed;
 	top: 0;
-	right: -100%;
-	width: 36rem;
+	right: -115%;
+	width: 33rem;
 	min-height: 100vh;
 	padding: 2rem;
 	background:var(--lightGreen-1);
