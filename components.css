@@ -338,8 +338,8 @@ i{
 .food_content{
 	display: grid;
 	width: 100%;
-	grid-template-columns: repeat(3 , 31% );
-	gap: 3.1rem;
+	grid-template-columns: repeat(2 , 45% );
+	gap: 2.1rem;
 }
 .food-box{
 	/* width: 500px; */
@@ -382,7 +382,7 @@ i{
 }
 .food-title{
 	/* text-align: center; */
-	font-size: 1.48rem; 
+	font-size: 1.4rem; 
 	text-transform: uppercase;
 	
 }
@@ -391,7 +391,7 @@ i{
 	bottom: 3%;
 	text-align: center;
 	align-items: center;
-	font-size: 2.2rem;
+	font-size: 2.1rem;
 	font-weight: 600;
 }
 .add-cart{
@@ -401,7 +401,7 @@ i{
 	color: var(--lightGreen-1);
 	background: var(--green-1);
 	border-radius: 1rem;
-	font-size: 2.5rem !important;
+	font-size: 2rem !important;
 	
 }
 
@@ -602,7 +602,7 @@ i{
 	}
 	.food-title{
 		/* text-align: center; */
-		font-size: 2rem; 
+		font-size: 1.7rem; 
 		text-transform: uppercase;
 		
 	}
