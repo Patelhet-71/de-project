@@ -1,4 +1,7 @@
 /* Our Story Styles */
+#ourStory{
+	margin-top: 5rem;
+}
 .ourStory__wrapper {
 	display: flex;
 	flex-direction: column;
