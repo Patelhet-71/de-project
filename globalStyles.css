@@ -5,7 +5,7 @@ html {
 	
 }
 body {
-	background: var(--lightGreen-2);
+	background: var(--lightOrange-2);
 	overflow-x: hidden;
 	scroll-behavior: auto;
 }
@@ -23,37 +23,11 @@ section {
 	margin: 0 auto;
 }
 :root {
-	/* --green-1: rgb(100, 38, 38);
-	--green-2: rgb(222, 150, 150);
-	--lightGreen-1:rgb(229, 214, 214) ;
-	--lightGreen-2:rgb(252, 244, 244) ; */
-	
-	/* --green-1: rgb(38, 91, 100);
-	--green-2: rgb(150, 202, 222);
-	--lightGreen-1:rgb(214, 225, 229) ;
-	--lightGreen-2:rgb(244, 248, 252) ; */
+	--orange-1: #FB8937;
+	--orange-2: #FFAE77;
+	--lightOrange-1:#FDE6D6 ;
+	--lightOrange-2:#FCF8F2 ;
 
-	--green-1: #FB8937;
-	--green-2: #FFAE77;
-	--lightGreen-1:#FDE6D6 ;
-	--lightGreen-2:#FCF8F2 ;
-
-	/* --green-1: rgb(38, 60, 100);
-	--green-2: rgb(175, 186, 218);
-	--lightGreen-1:rgb(210, 213, 230) ;
-	--lightGreen-2:rgb(244, 245, 252) ; */
-	
-	/* --green-1: rgb(38, 44, 100);
-	--green-2: rgb(150, 151, 222);
-	--lightGreen-1:rgb(214, 217, 229) ;
-	--lightGreen-2:rgb(244, 244, 252) ; */
-	
-
-
-	/* --green-1: #26643b;
-	--green-2: #a2de96;
-	--lightGreen-1: #d6e5d8;
-	--lightGreen-2: #f5fcf4; */
 	--black-1: #3b413a;
 	--black-2: #3f3c3c;
 	--black-3: #5b6359;

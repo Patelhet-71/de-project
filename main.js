@@ -34,11 +34,3 @@ AOS.init({
   mirror: false, // whether elements should animate out while scrolling past them
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 });
-
-// const dishGridEl = Array.from(document.querySelectorAll('#dishGrid'));
-// if (dishGridEl.length > 0){
-//   // console.log(dishGridEl)
-//   dishGridEl.forEach(item => {
-//     item.setAttribute('data-aos', 'fade-up');
-//   })
-// }
