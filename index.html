@@ -18,7 +18,20 @@
 </head>
 
 <body>
-  
+    <script type="text/javascript">
+      var drop_menu = document.getElementById('d_menu');
+        drop_menu.onchange = function() {
+          var set_menu = this.options[this.selectedIndex];
+          if(set_menu.value != ""){
+          window.open(set_menu.value);
+          
+          
+          }
+          
+        }
+      
+      
+    </sceript>
   <div class="nav">
     <div class="container">
       <div class="nav__wrapper">
@@ -47,10 +60,17 @@
             </div>
             <div class="nav__list__wrapper">
               <li><a class="nav__link" href="./index.html">Home</a></li>
-              <li><a class="nav__link" href="./gujarati.html">Gujarati</a></li>
-              <li><a class="nav__link" href="./kathiyawadi.html">Kathiyawadi</a></li>
-              <li><a class="nav__link" href="./punjabi.html">Punjabi</a></li>
-              <li><a class="nav__link" href="./other.html">Other</a></li>
+//               <li><a class="nav__link" href="./gujarati.html">Gujarati</a></li>
+//               <li><a class="nav__link" href="./kathiyawadi.html">Kathiyawadi</a></li>
+//               <li><a class="nav__link" href="./punjabi.html">Punjabi</a></li>
+//               <li><a class="nav__link" href="./other.html">Other</a></li>
+                <select  id="d_menu">
+                  <option value="#">Menus</option>
+                  <option value="./gujarati.html">Gujarati</option>
+                  <option value="./kathiyawadi.html">Kathiyawadi</option>
+                  <option value="./punjabi.html">Panjabi</option>
+                  <option value="./other.html">Other</option>
+                </select>
               <li><a class="nav__link" href="./about.html">About</a></li>
               <li><a class="nav__link" href="./contact.html">Contact</a></li>
               <li><i class='bx bx-shopping-bag ' id="cart-icon" ></i></li>
